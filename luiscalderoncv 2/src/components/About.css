@@ -1,0 +1,50 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: center;
+  gap: 8%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  height: 200px;
+}
+
+.aboutContainer h2 {
+  font-size: 2.5rem;
+}
+
+.aboutContainer p {
+  width: 30%;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 24px;
+  color: grey;
+}
+
+.tips {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hours p {
+  font-size: 0.9rem;
+  margin-top: -2px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.hours span {
+  font-size: 2rem;
+  color: rgb(82, 221, 175);
+  font-weight: 800;
+}

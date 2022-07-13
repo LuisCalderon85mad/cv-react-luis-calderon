@@ -1,0 +1,133 @@
+body {
+  margin: 0px;
+}
+
+.hero {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroInfo {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 5%;
+}
+
+.heroInfo h1 {
+  margin: 0px;
+  font-size: 80px;
+  color: black;
+}
+
+.heroInfo h3 {
+  margin: -8px;
+  font-size: 24px;
+  color: black;
+  margin-left: 0.5%;
+}
+
+.heroInfo p {
+  margin: 4px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.heroInfo span {
+  margin: 4px;
+  font-size: 16px;
+  color: grey;
+  width: 50%;
+}
+
+.navName {
+  font-size: 16px;
+  padding: 20px;
+  text-transform: lowercase;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  height: 90px;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.navAbout {
+  background-color: aquamarine;
+  height: 90px;
+  width: 9%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience {
+  background-color: rgb(44, 240, 175);
+  height: 90px;
+  width: 9%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.education {
+  background-color: rgb(17, 211, 146);
+  height: 90px;
+  width: 9%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more {
+  background-color: rgb(14, 157, 109);
+  height: 90px;
+  width: 9%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio {
+  background-color: rgb(6, 136, 93);
+  height: 90px;
+  width: 9%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  background-color: rgb(1, 105, 71);
+  height: 90px;
+  width: 9%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgNav {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 4px;
+}
+
+.sign {
+  display: flex;
+}
+
+.imgHero {
+  margin-right: 5%;
+}

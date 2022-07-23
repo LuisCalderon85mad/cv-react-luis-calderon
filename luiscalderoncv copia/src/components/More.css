@@ -1,0 +1,221 @@
+.moreContainer {
+  display: flex;
+  justify-content: center;
+  gap: 8%;
+  background-color: white;
+}
+
+.moreContainer h2 {
+  margin-top: 4%;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.moreList {
+  width: 30%;
+  margin-top: 4%;
+}
+
+.moreTittle {
+  margin-top: 0px;
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+}
+
+.language {
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  color: grey;
+}
+
+.levelLanguage {
+  background-color: aquamarine;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.levelLanguage2 {
+  background-color: aquamarine;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.language2 {
+  display: flex;
+}
+
+.languageItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.languageContainer {
+  display: flex;
+  gap: 20%;
+  margin-bottom: 8%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.habilities {
+  background-color: white;
+  border-radius: 10%;
+  border-style: solid;
+  border-color: aquamarine;
+  padding: 2%;
+  margin: 8px;
+}
+
+.habilitiesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  margin-bottom: 2%;
+}
+
+.form {
+  width: 30%;
+}
+
+.moreTittle2 {
+  margin-top: 4%;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.moreContainer2 {
+  display: flex;
+  justify-content: center;
+  gap: 8%;
+  background-color: white;
+  margin-top: 1%;
+  align-items: flex-start;
+}
+
+form {
+  margin-top: 5%;
+  margin-left: -35px;
+}
+
+label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: black;
+  top: -5px;
+}
+
+input {
+  width: 95%;
+  margin-top: 8px;
+  border-radius: 2px;
+  margin-bottom: 24px;
+  height: 40px;
+}
+
+.inputForm {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: aquamarine;
+  color: black;
+  font-size: 1rem;
+  font-weight: 800;
+  border-style: none;
+  width: 180px;
+  height: 40px;
+}
+
+button:hover {
+  opacity: 80%;
+}
+
+.input2 {
+  height: 120px;
+}
+
+@media screen and (max-width: 1024px) {
+  .moreContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+    background-color: white;
+  }
+
+  .moreContainer h2 {
+    margin-top: 4%;
+    font-size: 2.5rem;
+    margin-bottom: 4px;
+  }
+
+  .languageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+    margin-bottom: 8%;
+    margin-left: 20%;
+    margin-top: 5%;
+  }
+
+  .moreContainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8%;
+    background-color: white;
+    margin-top: 1%;
+    align-items: center;
+  }
+
+  .moreTittle2 {
+    margin-top: 4%;
+    font-size: 2.5rem;
+    margin-bottom: -16px;
+  }
+
+  input {
+    width: 120%;
+    margin-top: 8px;
+    border-radius: 2px;
+    margin-bottom: 24px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  input {
+    width: 180%;
+    margin-top: 8px;
+    border-radius: 2px;
+    margin-bottom: 24px;
+    height: 40px;
+  }
+}
